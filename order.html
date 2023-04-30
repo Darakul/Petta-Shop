@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <script src="info.js"></script>
+</head>
+
+<body>
+<h1>Please fill in your information</h1>
+
+<form name="form1">
+
+<table> 
+
+<tr>
+ <td valign="top">
+  <label for="Salutation">Salutation</label>
+ </td>
+ <td valign="top">
+    <label for="Mr">Mr</label>
+      <input type="radio" name="salutation" id="Mr" value="Mr">
+      <label for="Mrs">Mrs</label>
+      <input type="radio" name="salutation" id="Mrs" value="Mrs">
+    <label for="Miss">Miss</label>
+      <input type="radio" name="salutation" id="Miss" value="Miss">
+      <label for="male">Dr</label>
+      <input type="radio" name="salutation" id="Dr" value="Dr">      
+
+ </td>
+</tr>
+
+<tr>
+ <td valign="top">
+  <label for="full_name">Full Name *</label>
+ </td>
+ <td valign="top">
+<input TYPE="TEXT" SIZE="20" NAME="yourname">
+ </td>
+</tr>
+
+
+<tr>
+ <td valign="top">
+  <label for="full_name">Adress: </label>
+ </td>
+ <td valign="top">
+<input TYPE="TEXT" SIZE="30" NAME="address">
+ </td>
+</tr>
+
+
+<tr>
+ <td valign="top">
+  <label for="full_name">Phone Number: </label>
+ </td>
+ <td valign="top">
+<input TYPE="TEXT" SIZE="15" NAME="phone">
+ </td>
+</tr>
+
+</table>
+
+
+
+</p>
+<p><input TYPE="BUTTON" VALUE="Submit" onClick="display();"></p>
+
+
+
+</form>
+</body>
+</html>
