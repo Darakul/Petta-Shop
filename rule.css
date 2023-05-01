@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Secular+One&display=swap');
+
+html,body {
+    height: 100%;
+    overflow: auto;
+}
+
+body{
+    background-image: url('image/Rule.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+    text-align: center; 
+}
+
+h3{
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+    text-align: center; 
+}
+
+h4{
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+    text-align: center; 
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 70px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #cac6c8;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color:rgb(126, 120, 118)
+}
+
+.Next{
+    margin-left: auto;
+    font-family: 'Dosis', sans-serif; 
+    font-size: 25px;
+    margin-bottom: 100px;
+}

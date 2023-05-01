@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+html,body {
+    height: 100%;
+    overflow: auto;
+}
+
+body{
+    background-image: url('image/Login.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 70px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #cac6c8;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color:rgb(126, 120, 118)
+}
+
+.login{
+    margin-left: auto;
+    font-family: 'Dosis', sans-serif; 
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+
+a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: 'Secular One', sans-serif;
+    text-align: right;
+    margin: 20px 40px;
+    font-size: 40px;
+}
