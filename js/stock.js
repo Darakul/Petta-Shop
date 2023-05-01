@@ -7,7 +7,7 @@ class Name{
 
 class Customer extends Name{
     //--- Inheritance ---//
-    startEngine(){
+    Name(){
         document.write ('Name: '+this.name+"<br>"); //สืบทอดค่า name จาก class Name
         }
     
@@ -41,7 +41,7 @@ class Customer extends Name{
 let c1 = new Customer();
 c1.setName('Rimuru');
 c1.setOrder('Shitsu', 5500);
-c1.startEngine();
+c1.Name();
 document.write (c1.getMenu());
 
 
