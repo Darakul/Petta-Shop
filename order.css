@@ -1,0 +1,39 @@
+html,body {
+    height: 100%;
+    overflow: auto;
+}
+body {
+    margin: 50px;
+    background-image: url('image/bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+table,h1{
+    padding: 10px;
+    background-color: rgb(251, 213, 142);
+}
+
+#btn,button{
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(251, 213, 142);
+    border-radius: 5px;
+    
+}
+
+#btn:hover{
+    background-color: rgb(188, 71, 71);
+    color: aliceblue;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(188, 71, 71);
+    color: aliceblue;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

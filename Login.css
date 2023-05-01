@@ -27,7 +27,8 @@ button{
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    background-color:rgb(126, 120, 118)
+    background-color:rgb(126, 120, 118);
+
 }
 
 .login{

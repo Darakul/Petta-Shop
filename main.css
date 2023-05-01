@@ -11,6 +11,7 @@ body{
     background-position: center;
     background-size: cover;
     width: 100%;
+    text-align: center;
 }
 
 h1{
@@ -21,8 +22,14 @@ h1{
 
 h2{
     font-family: 'Itim', cursive;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center; 
 }
 
 
+a {
+    font-family: 'Itim', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}

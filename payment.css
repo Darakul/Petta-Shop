@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Secular+One&display=swap');
+
+html,body {
+    height: 100%;
+    overflow: auto;
+}
+
+body{
+    text-align: center;
+    background-image: url('image/qdog.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+img{
+    margin-top: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(213, 213, 213);
+}
+
+p{
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+    text-shadow: 0 0 3px #ffffff;
+    color: rgb(34, 34, 34);
+}

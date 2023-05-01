@@ -1,0 +1,12 @@
+html,body {
+    height: 100%;
+    overflow: auto;
+}
+body {
+    margin: 50px;
+    background-image: url('image/bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}

@@ -6,9 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Information</title>
     <script src="order.js"></script>
+    <link rel="stylesheet" href="order.css">
 </head>
 
+
 <body>
+
+  <table>
+    <tr>
+      <td><img src="image/1_1_2.webp" alt="" width="200px"></td>
+      <td><script src="js/stock.js"></script></td>
+    </tr>
+  </table>
+
+
 <h1>Please fill in your information</h1>
 
 <form name="form1">
@@ -73,13 +84,17 @@
 
 </table>
 
-</p>
-<p><input TYPE="BUTTON" VALUE="Submit" onClick="order();"></p>
+
+<p><input id="btn" TYPE="button" VALUE="Check" onClick="order();"></p>
 
 <p id="name"></p>
 <p id="add"></p>
 <p id="phone"></p>
 <p id="date"></p>
+<p id="price"></p>
+<p id="image"></p>
 </form>
+
+<button><a href="payment.html">Submit</a></button>
 </body>
 </html>

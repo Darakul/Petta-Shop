@@ -8,5 +8,8 @@ function order() {
   document.getElementById("add").innerHTML = ad;
   document.getElementById("phone").innerHTML = ph;
   document.getElementById("date").innerHTML = d;
+
+  
+
 }
 
