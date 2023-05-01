@@ -1,13 +1,12 @@
-function display() {
+function order() {
+  var n = "Name: "+document.form1.salutation.value+" "+form1.name.value;
+  var ad = "Address: "+document.form1.address.value;
+  var ph = "Phone: "+document.form1.phone.value;
+  var d = "Date: "+document.form1.date.value;
 
-
-  DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
-
-  message = "<p>Your form has been submitted! </p>"
-
-  message += "<b>Name: </b>" + document.form1.salutation.value +" "+ document.form1.yourname.value;
-  message += "<p><b>Address: </b>" + document.form1.address.value;
-  message += "<p><b>Phone: </b>" + document.form1.phone.value;
-
-  DispWin.document.write(message);
+  document.getElementById("name").innerHTML = n;
+  document.getElementById("add").innerHTML = ad;
+  document.getElementById("phone").innerHTML = ph;
+  document.getElementById("date").innerHTML = d;
 }
+

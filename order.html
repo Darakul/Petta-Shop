@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Information</title>
-    <script src="info.js"></script>
+    <script src="order.js"></script>
 </head>
 
 <body>
@@ -37,7 +37,7 @@
   <label for="full_name">Full Name *</label>
  </td>
  <td valign="top">
-<input TYPE="TEXT" SIZE="20" NAME="yourname">
+<input TYPE="TEXT" SIZE="20" NAME="name">
  </td>
 </tr>
 
@@ -54,22 +54,32 @@
 
 <tr>
  <td valign="top">
-  <label for="full_name">Phone Number: </label>
+  <label for="full_name">Date: </label>
  </td>
  <td valign="top">
-<input TYPE="TEXT" SIZE="15" NAME="phone">
+<input TYPE="date" NAME="date">
  </td>
 </tr>
 
+<tr>
+  <td valign="top">
+   <label for="full_name">Phone Number: </label>
+  </td>
+  <td valign="top">
+ <input TYPE="TEXT" SIZE="15" NAME="phone">
+  </td>
+ </tr>
+
+
 </table>
 
-
-
 </p>
-<p><input TYPE="BUTTON" VALUE="Submit" onClick="display();"></p>
+<p><input TYPE="BUTTON" VALUE="Submit" onClick="order();"></p>
 
-
-
+<p id="name"></p>
+<p id="add"></p>
+<p id="phone"></p>
+<p id="date"></p>
 </form>
 </body>
 </html>
