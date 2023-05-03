@@ -27,3 +27,7 @@ p{
     text-shadow: 0 0 3px #ffffff;
     color: rgb(34, 34, 34);
 }
+
+a{
+    text-decoration: none;
+}
